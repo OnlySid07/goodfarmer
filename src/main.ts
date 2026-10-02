@@ -12,8 +12,8 @@ export class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spritesheet('player', './public/player/Walk.png', { frameWidth: 32, frameHeight: 32 });
-        this.load.spritesheet('playerIdle', './public/player/Idle.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet('player', './player/Walk.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet('playerIdle', './player/Idle.png', { frameWidth: 32, frameHeight: 32 });
     }
 
     create() {
